@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffccffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/caption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff3300"
+        android:padding="4sp"
+        android:text=" Activity1 "
+        android:textColor="#ff000000"
+        android:textSize="20px"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/widget107"
+        android:layout_width="match_parent"
+        android:layout_height="2sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0033cc"
+        android:text="Data to be sent to SubActivity:"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnCallActivity2"
+        android:layout_width="149dip"
+        android:layout_height="wrap_content"
+        android:padding="6sp"
+        android:text="Call  Activity2"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/label1Returned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0033cc"
+        android:text=" Data returned by Activity2"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffcc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff9900"
+        android:padding="4sp"
+        android:text=" Activity2"
+        android:textSize="20px"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/widget107"
+        android:layout_width="match_parent"
+        android:layout_height="2sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0033cc"
+        android:text="Data Received from Activity1 ..."
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnCallActivity1"
+        android:layout_width="149px"
+        android:layout_height="wrap_content"
+        android:padding="6sp"
+        android:text="CallBack  Activity1"
+        android:textStyle="bold" >
+    </Button>
+
+</LinearLayout>
