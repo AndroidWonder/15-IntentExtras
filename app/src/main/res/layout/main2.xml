@@ -11,32 +11,33 @@
         android:layout_height="wrap_content"
         android:background="#ffff9900"
         android:padding="4sp"
-        android:text=" Activity2"
-        android:textSize="20px"
+        android:text=" Activity 2"
+        android:textSize="20sp"
         android:textStyle="bold" >
     </TextView>
 
     <TextView
         android:id="@+id/widget107"
         android:layout_width="match_parent"
-        android:layout_height="2sp" >
+        android:layout_height="wrap_content" >
     </TextView>
 
     <TextView
         android:id="@+id/label2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff0033cc"
-        android:text="Data Received from Activity1 ..."
+        android:background="#ff00ff00"
+        android:text="Data Received from Activity 1 ..."
+        android:textSize="16sp"
         android:textStyle="bold" >
     </TextView>
 
     <Button
         android:id="@+id/btnCallActivity1"
-        android:layout_width="149px"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="6sp"
-        android:text="CallBack  Activity1"
+        android:text="CallBack  Activity 1"
         android:textStyle="bold" >
     </Button>
 
