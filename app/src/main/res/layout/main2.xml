@@ -12,6 +12,7 @@
         android:background="#ffff9900"
         android:padding="4sp"
         android:text=" Activity 2"
+        android:gravity="center"
         android:textSize="20sp"
         android:textStyle="bold" >
     </TextView>

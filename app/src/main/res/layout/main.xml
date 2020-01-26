@@ -13,6 +13,7 @@
         android:background="#ffff3300"
         android:padding="4sp"
         android:text=" Activity 1 "
+        android:gravity="center"
         android:textColor="#ff000000"
         android:textSize="20sp"
         android:textStyle="bold" >

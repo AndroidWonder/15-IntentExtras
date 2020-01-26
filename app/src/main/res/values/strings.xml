@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, IntentDemo!</string>
-    <string name="app_name">IntentDemo</string>
+    <string name="hello">Hello World, Intent Demo</string>
+    <string name="app_name">Intent Demo</string>
     <string name="get_picture">smile</string>
 </resources>
