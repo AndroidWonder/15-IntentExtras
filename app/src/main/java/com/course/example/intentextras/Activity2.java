@@ -67,7 +67,7 @@ public class Activity2 extends Activity {
     private class Clicker implements OnClickListener {
 		@Override
 		public void onClick(View v) {
-			//clear Activity2 screen so Activity1 could be seen
+			//clear Activity2 screen so Activity1 can be seen
 			finish();			
 		}  	
     }

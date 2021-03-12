@@ -39,7 +39,7 @@ public class Activity1 extends Activity {
 		@Override
 		public void onClick(View v) {
 		
-				// create an Intent to talk to Activity2
+				// create an Intent to start to Activity2
 				Intent myIntent = new Intent(Activity1.this,
 						Activity2.class);
 
