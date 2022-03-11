@@ -20,13 +20,14 @@ public class Activity1 extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
 			setContentView(R.layout.main);
+
 			label = (TextView) findViewById(R.id.label1);
 			labelReturned = (TextView) findViewById(R.id.label1Returned);
 			btnCallActivity = (Button) findViewById(R.id.btnCallActivity2);
 			
 			btnCallActivity.setOnClickListener(new Clicker());
+
 			// for demonstration purposes- show in top label
 			label.setText("Activity1   (sending...) \n\n"
 					+ "myString:  Hello Android" + "\n"
@@ -58,7 +59,7 @@ public class Activity1 extends Activity {
 		}// onClick
 	}// Clicker
 
-	//listener override
+	//listen for Activity2 finish
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);

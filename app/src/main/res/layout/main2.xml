@@ -37,7 +37,9 @@
         android:id="@+id/btnCallActivity1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="6sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="30dip"
         android:text="CallBack  Activity 1"
         android:textStyle="bold" >
     </Button>
